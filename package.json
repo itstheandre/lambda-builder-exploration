@@ -1,0 +1,16 @@
+{
+  "name": "builder",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^1.12.1",
+    "aws-lambda": "^1.0.7"
+  }
+}
